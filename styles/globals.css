@@ -1,16 +1,30 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+:root{
+  --grayish-color: hsl(237, 18%, 59%);
+  --soft-red: hsl(345, 95%, 68%);
+  --white: hsl(0, 0%, 100%);
+  --dark-desaturated-blue: hsl(236, 21%, 26%);
+  --dark-desaturated-blue-1: hsl(236, 21%, 20%);
+  --very-dark-blue: hsl(235, 16%, 14%);
+  --very-dark-black-blue: hsl(234, 17%, 12%);
 
-a {
-  color: inherit;
-  text-decoration: none;
 }
 
 * {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
+
+html{
+  font-size: 62.5%;
+
+}
+
+body { 
+  font-family: 'Red Hat Text', sans-serif;
+  color: var(--grayish-color);
+}
+
+
+
+

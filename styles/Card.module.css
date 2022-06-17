@@ -1,0 +1,64 @@
+.cardBox{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    gap: 3rem;
+    width: 15rem;
+  }
+  
+  .cardBox p {
+    font-size: 1.4rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+  
+  .card {
+    padding: 2rem 3rem;
+    border-radius: 1rem;
+    background-image: linear-gradient(var(--dark-desaturated-blue-1) 25%, var(--dark-desaturated-blue) 100%);
+    position: relative;
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
+  }
+  
+  .cardTitle{
+    text-align: center;
+    font-weight: 700;
+    font-size: 7.2rem;
+    color: var(--soft-red);
+    background-image: linear-gradient(var(--soft-red), var(--soft-red));
+    background-clip: text;
+  }
+  
+  .cardPattern{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    width: 100%;
+  }
+  
+  .cardLeftDot,
+  .cardRightDot{
+    width: 1.25rem;
+    height: 1.25rem;
+    background-color: var(--very-dark-black-blue);
+    border-radius: 10rem;
+  }
+  
+  .cardLeftDot{
+    margin-left: -7px;
+  }
+  .cardRightDot{
+    margin-right: -7px;
+  }
+  
+  .cardSeperator{
+    width: 100%;
+    height: 1px;
+    background-color: var(--very-dark-black-blue);
+    opacity: 0.5;
+  }
