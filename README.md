@@ -19,7 +19,7 @@ yarn dev
 ## Links
 
 - Solution URL: https://github.com/milimyname/countdown-timer-mili
-- Live Site URL: 
+- Live Site URL: https://countdown-timer-mili.vercel.app/
 
 ## My Process
 
