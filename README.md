@@ -18,7 +18,7 @@ yarn dev
 
 ## Links
 
-- Solution URL: 
+- Solution URL: https://github.com/milimyname/countdown-timer-mili
 - Live Site URL: 
 
 ## My Process
